@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: "Karla" sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+}
+
+.Header > h3 {
+  margin-right: 30px;
+  color: white;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.Container {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.Container > h1 {
+  font-size: 30px;
+  color: white;
+}
+
+.TrollFace {
+  width: 50px;
+  height: 40px;
+  margin-right: 15px;
+  font-weight: 700;
+}
+
+.InputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 30px;
+}
+
+.TopText {
+  margin-left: 120px;
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  border-style: double;
+  border-color: #d5d4d8;
+}
+
+.BottomText {
+  margin-right: 120px;
+  width: 300px;
+  height: 45px;
+  border-radius: 5px;
+  border-style: double;
+  border-color: #d5d4d8;
+}
+
+.MemeButton {
+  width: 700px;
+  height: 45px;
+  background: linear-gradient(90.41deg, #711f8d 1.14%, #a818da 100%);
+  border-radius: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+.ImageContainer {
+  position: relative;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.ImageContainer > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.meme--text {
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+    -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+    2px 2px 5px #000;
+}
+
+.topText {
+  top: 0;
+}
+
+.bottomText {
+  bottom: 0;
+}
