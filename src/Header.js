@@ -2,6 +2,7 @@ import React from "react";
 import trollFace from "./images/trollface.png";
 
 export default function Header() {
+  // Simple header component.
   return (
     <header className="Header">
       <div className="Container">
